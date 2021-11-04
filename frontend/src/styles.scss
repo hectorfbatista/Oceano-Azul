@@ -1,0 +1,43 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+*{
+    scroll-behavior: smooth;
+    font-family: 'Baloo Tamma 2', sans-serif;
+  }
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #8a8787;
+    border: 0px none #ffffff;
+    border-radius: 15px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    transition: 1s;
+    background: #487fec;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #487fec;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 15px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    transition: 1s;
+    background: #e4e3e3;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #838383;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+}

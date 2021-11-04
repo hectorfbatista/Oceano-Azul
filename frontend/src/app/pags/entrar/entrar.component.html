@@ -1,0 +1,28 @@
+<div class="fundo">
+  <img class="peixe" src="../../../assets/img/peixe mais escrita.png" alt="">
+  <div class="card">
+    <h1>Bem vindos</h1>
+    <form class="usuario">
+      <mat-form-field class="informacao" appearance="fill">
+        <mat-label>
+          <mat-icon>person</mat-icon> Nome
+        </mat-label>
+        <input matInput [(ngModel)]="usuario.name" name="name">
+      </mat-form-field>
+      <mat-form-field class="informacao" appearance="fill">
+        <mat-label>
+          <mat-icon>person</mat-icon> Sobrenome
+        </mat-label>
+        <input matInput [(ngModel)]="usuario.lastName" name="sobrenome">
+      </mat-form-field>
+      <mat-form-field class="informacao" appearance="fill">
+        <mat-label>
+          <mat-icon>date_range</mat-icon> Idade
+        </mat-label>
+        <input matInput [(ngModel)]="usuario.age" name="dateNasciment" type="number">
+      </mat-form-field>
+    </form>
+    <button mat-raised-button color="primary" (click)="entrar()" 
+      [disabled]="!usuario.name || !usuario.lastName || !usuario.age">Entrar</button>
+  </div>
+</div>

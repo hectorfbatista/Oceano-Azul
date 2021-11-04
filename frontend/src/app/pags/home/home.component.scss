@@ -1,0 +1,33 @@
+.fundo {
+    background: url('../../../assets/img/fundo\ telas.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 97%;
+    margin-left: 15px;
+    justify-content: space-around;
+    span {
+        cursor: pointer;
+        &:hover {
+            color: #0b48c2;
+        }
+    }
+}
+
+.selected {
+    color: #0b48c2;
+}
+
+.centralizado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

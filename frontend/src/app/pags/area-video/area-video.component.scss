@@ -1,0 +1,99 @@
+.jogos {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -10%);
+  margin-top: 15px;
+}
+
+.card {
+  background-color: white;
+  width: 90%;
+  height: 450px;
+  border-radius: 13px;
+  box-shadow: 0 0 1em teal;
+  position: fixed;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -84%);
+  margin-top: 10px;
+}
+
+.card2 {
+  background-color: #3047ca;
+  box-shadow: 0 0 1em teal;
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  position:fixed;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -2%);
+  margin-top: 10px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 7px;
+  font-size: 2.1rem;
+}
+
+.video {
+  position: fixed;
+  top: +30%;
+  left: 131%;
+  transform: translate(-131%, +30%);
+  width: 300px;
+  height: 170px;
+  
+}
+
+.video2 {
+  position: fixed;
+  top: +110%;
+  left: 131%;
+  transform: translate(-131%, +110%);
+  width: 300px;
+  height: 170px;
+}
+
+.esgoto {
+  position: fixed;
+  width: 620px;
+  height: 350px;
+  padding-top: 10px;
+  top: -18%;
+  left: 43%;
+  transform: translate(-43%, +18%);
+}
+
+.playnow {
+  position: absolute;
+  width: 240px;
+  height: 80px;
+  top: 255%;
+  left: 48%;
+  transform: translate(-48%, 255%);
+  z-index: 9;
+}
+
+.game {
+  position: fixed;
+  width: 280px;
+  height: 180px;
+  padding-top: 10px;
+  top: -41%;
+  left: -31%;
+  transform: translate(31%, 41%);
+}
+
+.game2 {
+  position: fixed;
+  width: 280px;
+  height: 180px;
+  padding-top: 10px;
+  top: -170%;
+  left: -31%;
+  transform: translate(31%, 170%);
+}

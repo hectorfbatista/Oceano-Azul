@@ -1,0 +1,43 @@
+img {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 350px;
+    height: 120px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 75%;
+    height: 450px;
+    border-radius: 13px;
+    box-shadow: 0 0 1em teal;
+    position: fixed;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -84%);
+    margin-top: 10px;
+    overflow:auto;
+  }
+
+  .quadrinhos {
+      position: absolute;
+      width: 350px;
+      height: 430px;
+      margin: 10px;
+      left: 20%; 
+      z-index: 100;
+  }
+
+  .quadrinhos2 {
+    position: absolute;
+    width: 600px;
+    height: 430px;
+    margin: 10px;
+    top: 15%;
+    left: 69%;
+    transform: translate(-50%, -15%);
+  }

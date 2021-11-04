@@ -1,0 +1,10 @@
+<div class="fundo">
+  <mat-toolbar class="menu">
+    <span routerLink="/entrar" routerLinkActive="selected">Início</span>
+    <span routerLink="/area-kids" routerLinkActive="selected">Área Kids</span>
+    <span routerLink="/area-video" routerLinkActive="selected" *ngIf="idade > 10">Jogos</span>
+    <span routerLink="/sobre" routerLinkActive="selected">Informações</span>
+    <span routerLink="/doacao" routerLinkActive="selected" *ngIf="idade > 17">Doação</span>
+  </mat-toolbar>
+  <ng-content class="centralizado"></ng-content>
+</div>
