@@ -1,1 +1,58 @@
-<app-home></app-home>
+<app-home>
+    <body>
+        <img src="../../../assets/img/peixe mais escrita.png" alt="">
+        <div class="container">
+            <div class="mensal">
+                <span>Mensal</span>
+                <input class="inputmensal" type="radio" id="input1" name="tipodoacao" value="mensal"
+                [(ngModel)]="tipoDoacao">
+            </div>
+            <div class="unico">
+                <span>Único</span>
+                <input type="radio" class="inputunico" id="input2" name="tipodoacao" value="unico"
+                [(ngModel)]="tipoDoacao">
+            </div>
+            <div class="quantia25">
+                <div class="radio">
+                    <span class="valora">R$25</span>
+                    <input type="radio" name="quantia" id="input3" [(ngModel)]="quantia" value="25"><br>
+                    <span class="conteudo">com apenas R$ 0,83 por dia você nos ajuda a combater a poluição dos oceanos
+                        através de denúncias
+                        de crimes ambientais</span>
+                </div>
+            </div>
+            <div class="quantia50">
+                <div class="radio">
+                    <span class="valorb">R$50</span>
+                    <input type="radio" name="quantia" id="input4" [(ngModel)]="quantia" value="50"><br>
+                    <span class="conteudo">com apenas R$ 1,66 por dia você nos ajuda a combater a poluição dos oceanos
+                        através de denúncias
+                        de crimes ambientais</span>
+                </div>
+            </div>
+            <div class="quantia100">
+                <div class="radio">
+                    <span class="valora">R$100</span>
+                    <input type="radio" name="quantia" id="input5" [(ngModel)]="quantia" value="100"><br>
+                    <span class="conteudo">com apenas R$ 3,33 por dia você nos ajuda a combater a poluição dos oceanos
+                        através de denúncias
+                        de crimes ambientais</span>
+                </div>
+            </div>
+            <div class="quantiaX">
+                <div class="radio">
+                    <span class="valorb">R$</span>
+                    <input type="number"  id="value" placeholder="0" [(ngModel)]="valor">
+                    <input type="radio" name="" id="input6" name="quantia" [(ngModel)]="quantia" value="0"><br>
+                    <span class="conteudo">Escolha valores a partir de R$20.</span>
+                </div>
+            </div>
+            <div class="reset">
+                <button mat-raised-button color="primary" id="reset" (click)="limpar()">LIMPAR</button>
+            </div>
+            <div class="doar">
+                <button mat-raised-button color="primary">DOAR</button>
+            </div>
+        </div>
+    </body>
+</app-home>

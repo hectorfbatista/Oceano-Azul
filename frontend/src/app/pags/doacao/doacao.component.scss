@@ -1,0 +1,172 @@
+body {
+    height: 90%;
+}
+
+img {
+    width: 310px;
+    height: 140px;
+}
+
+.mensal{
+    position: absolute;
+    top: 30%;
+    left: 70px;
+    width: 210px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #65B7BB;
+}
+
+.mensal > span{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #fff;
+    font-size: x-large;
+}
+
+.inputmensal{
+    position: absolute;
+    left: 180px;
+    top: 10px;
+}
+
+.unico{
+    position: absolute;
+    top: 30%;
+    left: 285px;
+    width: 210px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.unico > span{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #65B7BB;
+    font-size: x-large;
+}
+
+.inputunico{
+    position: absolute;
+    left: 180px;
+    top: 10px;
+}
+
+.quantia25{
+    position: absolute;
+    top: 40%;
+    left: 70px;
+    width: 230px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+.quantia50{
+    position: absolute;
+    top: 40%;
+    left: 325px;
+    width: 230px;
+    height: 170px;
+    background-color: #65B7BB;
+    border-radius: 6px;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+.quantia100{
+    position: absolute;
+    top: 40%;
+    left: 580px;
+    width: 230px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+.quantiaX{
+    position: absolute;
+    top: 40%;
+    left: 835px;
+    width: 230px;
+    height: 170px;
+    background-color: #65B7BB;
+    border-radius: 6px;
+    padding: 10px;
+    padding-top: 1px;
+}
+
+input{
+    position: absolute;
+    left: 210px;
+    top: 3%;
+}
+
+.radio{
+    margin-top: 15px;
+    
+}
+
+.conteudo{
+    font-size: medium;
+    position: absolute;
+    top: 50px;
+}
+
+.doar > button{
+    position: absolute;
+    top: 80%;
+    left: 335px;
+    width: 250px;
+    height: 60px;
+    border-radius: 13px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.reset > button{
+    position: absolute;
+    top: 80%;
+    left: 70px;
+    width: 250px;
+    height: 60px;
+    border-radius: 13px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#value{
+    border: 0px;
+    position: absolute;
+    left: 40px;
+    font-size: x-large;
+    width: 100px;
+    background-color: #65B7BB;
+    color: #fff;
+}
+
+input::placeholder{
+    color:#fff;
+}
+
+.valora{
+    color: #65B7BB;
+    font-size: x-large;
+    font-weight: bolder;}
+
+.valorb{
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+:Ng-deep .ngcontent-dkx-c84 {
+    top: 80%;
+}

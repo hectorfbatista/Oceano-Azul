@@ -7,7 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DoacaoComponent implements OnInit {
 
+  tipoDoacao = 'mensal';
+  quantia = '50';
+  valor = 0;
+
   constructor() { }
+
+  limpar() {
+    this.tipoDoacao = '';
+    this.quantia = '';
+    this.valor = 0;
+  }
+
 
   ngOnInit(): void {
   }
